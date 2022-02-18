@@ -78,7 +78,7 @@ const RegistroEmpresa: FC<IActualizar> = ({ ver }) => {
                                 <h6>El nombre no debe contener numeros</h6>
                             </div>
                             <div className="SubCampos">
-                                <input type="text" id="CIF" placeholder="CIF" name="CIF" onChange={handleInputChange} required minLength="10" maxLength="10" pattern="A-[0-9]{8,8}"/>
+                                <input type="text" id="CIF" placeholder="CIF" name="CIF" onChange={handleInputChange} required minLength={10} maxLength={10} pattern="A-[0-9]{8,8}"/>
                                 <h6>El CIF debe ser A- seguido de 8 digitos</h6>
                             </div>
                         </div>
@@ -89,7 +89,7 @@ const RegistroEmpresa: FC<IActualizar> = ({ ver }) => {
                                 <h6>[nombre]@[dominio]</h6>
                             </div>
                             <div className="SubCampos">
-                                <input type="password" placeholder="Password" name="Password" onChange={handleInputChange} required minLength="6"/>
+                                <input type="password" placeholder="Password" name="Password" onChange={handleInputChange} required minLength={6}/>
                                 <h6>La contraseña debe tener mas de 6 caracteres</h6>
                             </div>
 
