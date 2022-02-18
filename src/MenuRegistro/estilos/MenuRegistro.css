@@ -1,0 +1,101 @@
+#PantallaRegistro{
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(172, 208, 241);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#MarcoRegistro{
+    height: 90%;
+    width: 50%;
+    background-color: white;
+    border-radius: 10%;
+    
+}
+
+#TituloRegistro{
+    height: 10%;
+    width: 100%;
+    margin-top: 5%;
+    margin-left: 10%;
+    color: rgb(253, 114, 0);
+    font-size: 120%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+#CamposRegistro{
+    height: 60%;
+    width: 80%;
+    margin-left: 10%;
+}
+
+#Form{
+    height: 100%;
+    width: 100%;
+}
+
+.Campos{
+    height: 30%;
+    width: 100%;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.Campos input{
+    height: 25%;
+    width: 70%;
+   
+}
+
+.SubCampos{
+    height: 100%;
+    width: 50%;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.SubCampos p{
+    font-size: 60%;
+}
+
+.Campos select{
+    height: 30%;
+    width: 70%;
+}
+
+#Submit{
+    height: 25%;
+    width: 100%;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#Submit button{
+    height: 50%;
+    width: 20%;
+    background-color: rgb(253, 114, 0);
+    border-radius: 10%;
+    border: 1px solid black;
+}
+
+#Submit input{
+    height: 50%;
+    width: 20%;
+    border-radius: 10%;
+    background-color: rgb(253, 114, 0);
+    font: bold;
+    border: 1px solid black;
+}

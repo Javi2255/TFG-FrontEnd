@@ -1,0 +1,99 @@
+#appPantalla{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(172, 208, 241);
+    overflow-y: hidden;
+
+}
+.objetos{
+    position: absolute;
+    height: 7%;
+    width: 7%;
+    border: 1px solid;
+
+}
+
+
+#pantalla2{
+    height: 80%;
+    width: 100%;
+    margin-top: 2%;
+
+    display: flex;
+    flex-direction: row;
+}
+
+#marcoMover{
+    height: 100%;
+    width: 75%;
+    
+
+    background-image: url("https://i.pinimg.com/originals/63/5d/39/635d396a007483f3b9925292fabb3f7a.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+#componentes{
+    height: 10%;
+    width: 100%;
+    margin-top: 2%;
+    border-radius: 25px;
+    background-color:white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+#componentes button{
+    height: 50%;
+    width: 8%;
+    margin-right: 5%;
+    background-color: rgb(253, 114, 0);
+    border: 1px solid black;
+}
+
+#componentes img{
+    height: 80%;
+    width: 5%;
+    margin-left: 5%
+}
+
+#misDatos{
+    height: 70%;
+}
+
+#datos{
+    height: 60%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin-left: 2%;
+}
+
+#botonesApp{
+    height: 45%;
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+#botonesApp button{
+    height: 30%;
+    width: 30%;
+    border: 2px solid black;
+    background-color: rgb(253, 114, 0);
+    
+}
+
+
+
+

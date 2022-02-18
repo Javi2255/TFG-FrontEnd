@@ -1,0 +1,66 @@
+#PantallaTicketGeneral{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#PantallaTicket{
+    height: 70%;
+    width: 50%;
+    border-radius: 15%;
+    background-color: white;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#PantallaTicket h1{
+    color: rgb(255, 136, 40);
+}
+#PantallaTicket button{
+    height: 50%;
+    width: 15%;
+    background-color: rgb(255, 136, 40);
+    border: 1px solid black;
+}
+#Form{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+#Campos{
+    height: 70%;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#Campos select{
+    height: 10%;
+    width: 30%;
+}
+#Campos textarea{
+    height: 40%;
+    width: 70%;
+}
+#botonesTicket{
+    height: 20%;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+#botonesTicket input{
+    height: 50%;
+    width: 15%;
+    background-color: rgb(255, 136, 40);
+    border: 1px solid black;
+}

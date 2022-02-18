@@ -1,0 +1,115 @@
+#appPantalla2{
+    height: 100vmax;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(172, 208, 241);
+
+}
+
+#componentes2{
+    height: 5%;
+    width: 100%;
+    border-radius: 15px;
+    background-color: white;
+    margin-top: 2%;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+#componentes2 img{
+    height: 80%;
+    margin-left: 5%;
+    
+    
+
+}
+
+#desplegable{
+    height: 200%;
+    width: 8%;
+    margin-right: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    
+}
+#BotonPrincipal{
+    height: 30%;
+    width: 100%;
+    background-color: white;
+    border: 1px solid black;
+}
+
+#desplegable2{
+    height: 60%;
+    width: 100%;
+}
+#desplegable2 button{
+    height: 20%;
+    width: 100%;
+    border: none;
+    border-bottom: 0.5px solid black;
+    background-color:rgb(253, 114, 0) ;
+}
+
+
+
+#BotonPrincipal:hover{
+    border: 2px solid black;
+}
+
+.objetos2{
+    position: absolute;
+    height: 7%;
+    width: 7%;
+    border: 1px solid;
+}
+
+
+#marcoMover2{
+    margin-top: 2%;
+    height: 50%;
+    width: 75%;
+    background-image: url("https://i.pinimg.com/originals/63/5d/39/635d396a007483f3b9925292fabb3f7a.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+
+}
+
+#pantalla3{
+    height: 80%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+#lateralVisualizar{
+    margin-top: 2%;
+    height: 50%;
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+}
+
+#botonesVisualizar{
+    height: 50%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 2%;
+}
+
+
+
+#lateralVisualizar button{
+    background-color: rgb(253, 114, 0);
+    height: 20%;
+    margin-bottom: 5%;
+    width: 25%;
+    border: 1px solid black;
+}

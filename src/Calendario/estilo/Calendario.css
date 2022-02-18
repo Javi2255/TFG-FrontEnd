@@ -1,0 +1,27 @@
+#Calendario{
+    background-color: rgb(172, 208, 241);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#Calendario2{
+    height: 45%;
+    width: 20%;
+
+}
+#botonAceptar{
+    margin-top: 2% ;
+    height: 10%;
+    width: 100%;
+}
+
+
+#Aceptar{
+    height: 100%;
+    width: 35%;
+    border: 1px solid black;
+    background-color: rgb(255, 136, 0);
+    
+}

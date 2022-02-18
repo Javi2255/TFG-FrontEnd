@@ -1,0 +1,18 @@
+#Reservas{
+    height: 100vh;
+    width: 100%;
+    margin-top: 2%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#Mesas{
+    height: 10%;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    border-bottom: 1px solid grey;
+    background-color: rgba(253, 210, 185, 0.897);
+}
