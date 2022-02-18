@@ -58,10 +58,10 @@ const Verificacion: FC<Ipaso> = ({ver}) => {
             {estado3===1 &&<div id="verificacion">
                 <div id="texto"><h1><b>CODIGO VERIFICACION</b></h1></div>
                 <div id="numeros">
-                    <input type="text" maxLength="1" onChange={(e)=>{setCodigo1(parseInt(e.target.value))}}/>
-                    <input type="text" maxLength="1" onChange={(e)=>{setCodigo2(parseInt(e.target.value))}}/>
-                    <input type="text" maxLength="1" onChange={(e)=>{setCodigo3(parseInt(e.target.value))}}/>
-                    <input type="text" maxLength="1" onChange={(e)=>{setCodigo4(parseInt(e.target.value))}}/>
+                    <input type="text" maxLength={1} onChange={(e)=>{setCodigo1(parseInt(e.target.value))}}/>
+                    <input type="text" maxLength={1} onChange={(e)=>{setCodigo2(parseInt(e.target.value))}}/>
+                    <input type="text" maxLength={1} onChange={(e)=>{setCodigo3(parseInt(e.target.value))}}/>
+                    <input type="text" maxLength={1} onChange={(e)=>{setCodigo4(parseInt(e.target.value))}}/>
                 </div>
                 {err==2 && <div>
                     <div id="errorCodigo">Codigo incorrecto</div>
